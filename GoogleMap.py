@@ -24,7 +24,7 @@ def searchPlaces(gmaps, lat, lng, radius=500):
 
 
 if __name__ == '__main__':
-    api_key = 'AIzaSyAGiiAczI3P5gKeyHiGOsZ_Mp8AcM2ZbVc'
+    api_key = 'YOUR_GOOGLE_API_KEY'
     gmaps = googlemaps.Client(key=api_key)
     stayPoint={"longitude": 116.29573975, "latitude": 39.78693575, "userid": "0"}
     radius = 1000
